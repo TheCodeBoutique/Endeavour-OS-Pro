@@ -1,0 +1,19 @@
+/* ==========================================================================
+*  Project:   EndeavourosTheme MainPane Theme Styles
+*  Copyright: @2011 The Code Boutique, LLC.
+*  ==========================================================================
+*/
+
+/* 
+ globals EOS
+ 
+ @class
+ This pane is the MainPane with a custom theme.
+ 
+ @author Chad Eubanks
+ @extends SC.MainPane
+*/
+
+.EOS_Linen_Background {
+  background-image: sc_static('images/linen_background.png'); 
+}

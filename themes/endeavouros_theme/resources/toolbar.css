@@ -1,0 +1,19 @@
+/* ==========================================================================
+*  Project:   EndeavourosTheme ToolBarView Theme Styles
+*  Copyright: @2011 The Code Boutique, LLC.
+*  ==========================================================================
+*/
+
+/* 
+ globals EOS
+ 
+ @class
+ This view is the ToolBar with a custom ToolBarView.
+ 
+ @author Chad Eubanks
+ @extends SC.MainPane
+*/
+
+.EOS_ToolBar {
+  background-image: sc_static('images/toolbar_background.png'); 
+}
