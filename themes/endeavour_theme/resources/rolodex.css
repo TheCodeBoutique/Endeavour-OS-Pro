@@ -1,0 +1,79 @@
+.rolodex.sc-button-view {
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0px #555 none;
+    background: none;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    background: no-repeat sc_static('/images/rolodex_app.png');
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square .sc-button-inner {
+    background: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square .sc-button-label {
+    height: 114px;
+    line-height: 0px;
+    margin-left: 11px;
+    margin-right: 11px;
+    background: none;
+    cursor: pointer;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square.active {
+    background: no-repeat sc_static('/images/rolodex_app.png');
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square.active .sc-button-inner {
+    background: none;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square.active .sc-button-label {
+    background: none;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square.def,
+.rolodex.sc-button-view.sc-regular-size.square.sel {
+    background: none;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square.def .sc-button-inner,
+.rolodex.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+    background: none;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square.def .sc-button-label,
+.rolodex.sc-button-view.sc-regular-size.square.sel .sc-button-label {
+    background: none;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square.def.active,
+.rolodex.sc-button-view.sc-regular-size.square.sel.active {
+    background: none;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
+.rolodex.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+    background: none;
+}
+
+.rolodex.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
+.rolodex.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+    background: none;
+}
