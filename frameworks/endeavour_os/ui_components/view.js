@@ -1,16 +1,16 @@
 // ==========================================================================
-// UI Component:   EOS.ImageView
+// UI Component:   EOS.View
 // Copyright: ©2011 The Code Boutique, LLC.
 // ==========================================================================
-// globals ALTO
+// globals EOS
 
 // @class
-// This component is the ImageView but it is mapping the default SC.View to the EOS namespace.
+// This component is the View but it is mapping the default SC.View to the EOS namespace.
 
 // @author Chad Eubanks
 // @extends SC.ImageView
 
 
-EOS.ImageView = SC.ImageView.extend(
-  /** @scope EOS.ImageView.prototype */{
+EOS.View = SC.View.extend(
+  /** @scope EOS.View.prototype */{
 });

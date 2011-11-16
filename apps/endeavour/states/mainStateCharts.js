@@ -4,10 +4,10 @@ Endeavour.statechart = SC.Statechart.create({
 
   rootState: SC.State.extend({
 
-    initialSubstate:'LoginViewState',
+    initialSubstate:'LoginState',
     
-    LoginViewState: SC.State.plugin('Endeavour.LoginViewState')
-    // NextState: SC.State.plugin('Endeavour.LoginState')
+    LoginState: SC.State.plugin('Endeavour.LoginState'),
+    DesktopState: SC.State.plugin('Endeavour.DesktopState')
   })
 
 });

@@ -4,3 +4,16 @@
   filter:alpha(opacity=00);
   background-image: sc_static('images/linen.png');
 }
+
+.linen_eighty_opacity{
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter:alpha(opacity=80);
+  background-image: sc_static('images/linen.png');
+}
+
+.no_opacity{
+  opacity: 0.0;
+  -moz-opacity: 0.0;
+  filter:alpha(opacity=00);
+}
