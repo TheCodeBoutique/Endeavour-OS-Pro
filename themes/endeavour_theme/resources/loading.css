@@ -1,0 +1,35 @@
+@-webkit-keyframes loading {
+  0% { color: #fdfdfd; }
+  50% { color: #fdfdfd; }
+  100% { color: #fdfdfd; }
+}
+
+#loading {
+  background: #fdfdfd;
+  background-image: -moz-linear-gradient(top, #737272, #fdfdfd, #fdfdfd);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #737272), color-stop(0.5, #fdfdfd), color-stop(1.0, #fdfdfd));
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#loading p.loading {
+  background-color: none;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  bottom: -10px; /* hide inner shadow */
+  color: transparent;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 33px;
+  left: -10px; /* hide inner shadow */
+  margin: 0;
+  padding-left: 44px;
+  padding-top: 10px;
+  position: absolute;
+  right: -10px;
+}
