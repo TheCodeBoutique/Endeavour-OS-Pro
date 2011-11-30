@@ -16,7 +16,20 @@ Endeavour.newsApp = EOS.Page.design({
     linenView: EOS.LinenView.design({
       layout: { top: 0, right: 0, bottom: 0, left: 0 },
       classNames: 'linen_eighty_opacity'.w(),
-      //childViews: "newsApp designerApp cloudApp rolodexApp appShopApp browserApp accountApp".w(),
+      childViews:['topBar'],
+      
+        topBar: EOS.ToolbarView.design({
+          layout: { top: 0, left: 0, right: 0, height: 61 },
+          classNames: 'EOS_Toolbar_Top'.w(),
+          childViews: ['newsIcon viewsButton settingsButton'],
+          
+          newsIcon: EOS.ImageView.design({
+            layout: { centerY: -2, left: 10, height: 54, width: 233 },
+            useCanvas: YES,
+            value: sc_static('images/news_icon.png')
+          }),
+          
+        }),
      
     })
       

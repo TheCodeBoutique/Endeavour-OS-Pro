@@ -1,0 +1,7 @@
+.sc-toolbar-view {
+  background-color: transparent;
+}
+
+.EOS_Toolbar_Top{
+  background-image: sc_static('images/top_bar.png');
+}

@@ -13,5 +13,4 @@
 
 EOS.ToolbarView = SC.ToolbarView.extend(
   /** @scope EOS.MainPane.prototype */{
-  classNames: 'ALTO_ToolBar'.w(),
 });

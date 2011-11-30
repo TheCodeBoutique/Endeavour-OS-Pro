@@ -17,13 +17,19 @@ Endeavour.socialView = EOS.Page.design({
        
        centerView: EOS.View.design({
          layout: { centerX: 0, centerY: 0, height: 500, width: 1000},
-         childViews: 'endeavourIconMed pageIndicator fbEmail fbPassword twEmail twPassword liEmail liPassword socialButton cancelButton doneButton'.w(),
+         childViews: 'endeavourIconMed pageIndicator fbIcon fbEmail fbPassword twIcon twEmail twPassword liIcon liEmail liPassword socialButton cancelButton doneButton'.w(),
          
          
           endeavourIconMed: EOS.ImageView.design({
             layout: { top: 0, centerX: 0, width: 466, height: 159 },
             useCanvas: YES,
-             value: sc_static('images/endeavour_logo_med.png')
+            value: sc_static('images/endeavour_logo_med.png')
+          }),
+          
+          fbIcon: EOS.ImageView.design({
+            layout: { top: 200, left: 5, height: 39, width: 42 },
+            useCanvas: YES,
+            value: sc_static('images/fb_icon.png')
           }),
           
           fbEmail: EOS.TextFieldView.design({
@@ -42,6 +48,12 @@ Endeavour.socialView = EOS.Page.design({
             isTextArea: NO
           }),
           
+          twIcon: EOS.ImageView.design({
+            layout: { top: 200, centerX: -145, height: 39, width: 42 },
+            useCanvas: YES,
+            value: sc_static('images/tw_icon.png')
+          }),
+          
           twEmail: EOS.TextFieldView.design({
             classNames: 'EOS_TextField'.w(),
             layout: { top: 200, centerX: 0, height: 36, width: 233 },
@@ -57,6 +69,12 @@ Endeavour.socialView = EOS.Page.design({
             isPassword: YES,
             isTextArea: NO
           }),
+          
+           liIcon: EOS.ImageView.design({
+              layout: { top: 200, right: 290, height: 39, width: 42 },
+              useCanvas: YES,
+              value: sc_static('images/li_icon.png')
+            }),
           
           liEmail: EOS.TextFieldView.design({
             classNames: 'EOS_TextField'.w(),
