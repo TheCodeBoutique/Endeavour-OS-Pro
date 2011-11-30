@@ -8,7 +8,7 @@
 // This component is the View but it is mapping the default SC.View to the EOS namespace.
 
 // @author Chad Eubanks
-// @extends SC.ImageView
+// @extends SC.View
 
 
 EOS.View = SC.View.extend(

@@ -11,16 +11,15 @@ Endeavour.mainPage = EOS.Page.design({
   // Add childViews to this pane for views to display immediately on page 
   // load.
   mainPane: EOS.MainPane.design({
-    childViews: 'linenView contentWrapper'.w(),
+    childViews: 'linenView middleView'.w(),
     
     linenView: EOS.LinenView.design({
       layout: { top: 0, right: 0, bottom: 0, left: 0 },
       classNames: 'linen_no_opacity'.w(),
     }),
     
-    contentWrapper: EOS.View.design({
+    middleView: EOS.View.design({
       layout: { top: 0, right: 0, bottom: 0, left: 0 },
-      classNames: 'no_opacity'.w(),
       childViews: "eosIcon eosLogo userName password newTo signUp login".w(),
     
         eosIcon: EOS.ImageView.design({
@@ -36,16 +35,18 @@ Endeavour.mainPage = EOS.Page.design({
         }),
         
         userName: EOS.TextFieldView.design({
-          layout: { centerX: 0, centerY: 175, height: 25, width: 200},
+          classNames: 'EOS_TextField'.w(),
+          layout: { centerX: 0, centerY: 175, height: 36, width: 233 },
           hint: 'user name',
           isPassword: NO,
           isTextArea: NO
         }),
         
         password: EOS.TextFieldView.design({
-          layout: { centerX: 250, centerY: 175, height: 25, width: 200},
+          classNames: 'EOS_TextField'.w(),
+          layout: { centerX: 250, centerY: 175, height: 36, width: 233 },
           hint: 'password',
-          isPassword: NO,
+          isPassword: YES,
           isTextArea: NO
         }),
         
@@ -57,9 +58,8 @@ Endeavour.mainPage = EOS.Page.design({
         signUp: EOS.ButtonView.design({
           classNames: 'signup'.w(),
           layout: { centerX: 50, centerY: 213, height: 21, width: 60},
-          //title: 'Sign Up',
-          // action: 'myMethod',
-          // target: 'MyApp.Controller'
+          action: 'goToNewAccountState',
+          target: 'Endeavour.statechart'
         }),
         
         login: EOS.ButtonView.design({

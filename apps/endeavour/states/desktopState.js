@@ -7,16 +7,23 @@ Endeavour.DesktopState = SC.State.extend({
       enterState: function() {
         console.log('enterState: loadDesktopState');
         Endeavour.getPath('desktopView.mainPane').append();
-        //this.invokeLater(this.fadeInTexture, 50);
+        SC.routes.set('location', 'desktop');
       },
       
-      //fadeInTexture: function() {
-      //  Endeavour.mainPage.mainPane.linenView.animate('opacity', .8,{duration: 1.0,timing:'linear'});
-      //},
+      goToNewsAppState: function() {
+        console.log('goToNewsAppState');
+        this.gotoState('NewsAppState');
+      },
       
-      // goToDesktopState: function() {
-      //   this.gotoState('DesktopState');
-      // }    
+      goToDesignerAppState: function() {
+        console.log('goToDesignerAppState');
+        this.gotoState('DesignerAppState');
+      },
+      
+      goToCloudAppState: function() {
+        console.log('goToCloudAppState');
+        this.gotoState('CloudAppState');
+      },
     
       exitState:function() {
         Endeavour.getPath('desktopView.mainPane').remove();

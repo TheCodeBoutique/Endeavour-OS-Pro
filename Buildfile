@@ -19,3 +19,6 @@ config :all, :required => [:sproutcore, :endeavour_os]
 # CONFIGURE THEMES
  config :endeavour, :theme => 'endeavour_theme'
  config :endeavour_theme,  :theme_name => 'endeavour_theme'
+
+# CONFIGURE URL NAVIGATION AND HISTORY
+ config :endeavour, :html5_history => true
