@@ -696,7 +696,7 @@
 }
 
 .stream_button.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/stream_button.png');
+    background: no-repeat sc_static('/images/stream_button_down.png');
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
@@ -713,7 +713,7 @@
 
 .stream_button.sc-button-view.sc-regular-size.square.def,
 .stream_button.sc-button-view.sc-regular-size.square.sel {
-    background: none;
+    background: no-repeat sc_static('/images/stream_button_down.png');
 }
 
 .stream_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
@@ -794,7 +794,7 @@
 
 .grouped_button.sc-button-view.sc-regular-size.square.def,
 .grouped_button.sc-button-view.sc-regular-size.square.sel {
-    background: none;
+    background: no-repeat sc_static('/images/grouped_button_down.png');
 }
 
 .grouped_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
@@ -859,7 +859,7 @@
 }
 
 .horizontal_button.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/horizontal_button.png');
+    background: no-repeat sc_static('/images/horizontal_button_down.png');
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
@@ -876,7 +876,7 @@
 
 .horizontal_button.sc-button-view.sc-regular-size.square.def,
 .horizontal_button.sc-button-view.sc-regular-size.square.sel {
-    background: none;
+    background: no-repeat sc_static('/images/horizontal_button_down.png');
 }
 
 .horizontal_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,

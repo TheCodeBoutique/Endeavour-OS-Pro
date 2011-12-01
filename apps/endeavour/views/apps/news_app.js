@@ -34,25 +34,34 @@ Endeavour.newsApp = EOS.Page.design({
        layout: { top: 0, right: 74, height: 54, width: 0 },
        childViews: ["streamButton", "groupedButton", "horizontalButton"],
        
+       // selectedButtonBehavior: EOS.ImageView.design({
+       //  layout: { top: 0, right: 168, height: 54, width: 82 },
+       //  useCanvas: YES,
+       //  value: sc_static('images/selected_button.png')
+       // }),
+       
        streamButton: EOS.ButtonView.design({
           layout: { top: 0, right: 168, height: 54, width: 82 },
           classNames: 'stream_button'.w(),
-          //action: 'closeViewsState',
-          //target: 'Endeavour.statechart'
+          buttonBehavior: SC.TOGGLE_BEHAVIOR,
+          // action: 'streamButtonSelected',
+          // target: 'Endeavour.statechart'
         }),
         
         groupedButton: EOS.ButtonView.design({
           layout: { top: 0, right: 84, height: 54, width: 84 },
           classNames: 'grouped_button'.w(),
-          //action: 'showViewsState',
-          //target: 'Endeavour.statechart'
+          buttonBehavior: SC.TOGGLE_BEHAVIOR,
+          // action: 'groupedButtonSelected',
+          // target: 'Endeavour.statechart'
         }),
           
         horizontalButton: EOS.ButtonView.design({
           layout: { top: 0, right: 0, height: 54, width: 84 },
           classNames: 'horizontal_button'.w(),
-          //action: 'showViewsState',
-          //target: 'Endeavour.statechart'
+          buttonBehavior: SC.TOGGLE_BEHAVIOR,
+          // action: 'horizontalButtonSelected',
+          // target: 'Endeavour.statechart'
         }),
        
      }),
