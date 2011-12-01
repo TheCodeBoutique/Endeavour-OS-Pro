@@ -38,7 +38,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
-    border-radius: 6px;
+    
     cursor: pointer;
 }
 
@@ -121,7 +121,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
-    border-radius: 6px;
+    
     cursor: pointer;
 }
 
@@ -204,7 +204,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
-    border-radius: 6px;
+    
     cursor: pointer;
 }
 
@@ -286,7 +286,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
-    border-radius: 6px;
+    
     cursor: pointer;
 }
 
@@ -368,7 +368,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
-    border-radius: 6px;
+    
     cursor: pointer;
 }
 
@@ -451,7 +451,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
-    border-radius: 6px;
+    
     cursor: pointer;
 }
 
@@ -490,5 +490,416 @@
 
 .social_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
 .social_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+    background: none;
+}
+
+
+/* views button */
+
+.views_button.sc-button-view {
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0px #555 none;
+    background: none;
+}
+
+.views_button.sc-button-view.sc-regular-size.square {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    background: no-repeat sc_static('/images/views_button.png');
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.views_button.sc-button-view.sc-regular-size.square .sc-button-inner {
+    background: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.views_button.sc-button-view.sc-regular-size.square .sc-button-label {
+    height: 41px;
+    line-height: 41px;
+    margin-left: 11px;
+    margin-right: 11px;
+    background: none;
+    cursor: pointer;
+}
+
+.views_button.sc-button-view.sc-regular-size.square.active {
+    background: no-repeat sc_static('/images/views_button.png');
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    
+    cursor: pointer;
+}
+
+.views_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
+    background: none;
+}
+
+.views_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
+    background: none;
+}
+
+.views_button.sc-button-view.sc-regular-size.square.def,
+.views_button.sc-button-view.sc-regular-size.square.sel {
+    background: none;
+}
+
+.views_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
+.views_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+    background: none;
+}
+
+.views_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
+.views_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
+    background: none;
+}
+
+.views_button.sc-button-view.sc-regular-size.square.def.active,
+.views_button.sc-button-view.sc-regular-size.square.sel.active {
+    background: none;
+}
+
+.views_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
+.views_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+    background: none;
+}
+
+.views_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
+.views_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+    background: none;
+}
+
+
+/* settings button */
+
+.settings_button.sc-button-view {
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0px #555 none;
+    background: none;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    background: no-repeat sc_static('/images/settings_button.png');
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square .sc-button-inner {
+    background: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square .sc-button-label {
+    height: 41px;
+    line-height: 41px;
+    margin-left: 11px;
+    margin-right: 11px;
+    background: none;
+    cursor: pointer;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square.active {
+    background: no-repeat sc_static('/images/settings_button.png');
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    
+    cursor: pointer;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
+    background: none;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
+    background: none;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square.def,
+.settings_button.sc-button-view.sc-regular-size.square.sel {
+    background: none;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
+.settings_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+    background: none;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
+.settings_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
+    background: none;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square.def.active,
+.settings_button.sc-button-view.sc-regular-size.square.sel.active {
+    background: none;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
+.settings_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+    background: none;
+}
+
+.settings_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
+.settings_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+    background: none;
+}
+
+
+/* stream button */
+
+.stream_button.sc-button-view {
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0px #555 none;
+    background: none;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    background: no-repeat sc_static('/images/stream_button.png');
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square .sc-button-inner {
+    background: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square .sc-button-label {
+    height: 41px;
+    line-height: 41px;
+    margin-left: 11px;
+    margin-right: 11px;
+    background: none;
+    cursor: pointer;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square.active {
+    background: no-repeat sc_static('/images/stream_button.png');
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
+    background: none;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
+    background: none;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square.def,
+.stream_button.sc-button-view.sc-regular-size.square.sel {
+    background: none;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
+.stream_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+    background: none;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
+.stream_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
+    background: none;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square.def.active,
+.stream_button.sc-button-view.sc-regular-size.square.sel.active {
+    background: none;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
+.stream_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+    background: none;
+}
+
+.stream_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
+.stream_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+    background: none;
+}
+
+/* grouped button */
+
+.grouped_button.sc-button-view {
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0px #555 none;
+    background: none;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    background: no-repeat sc_static('/images/grouped_button.png');
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square .sc-button-inner {
+    background: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square .sc-button-label {
+    height: 41px;
+    line-height: 41px;
+    margin-left: 11px;
+    margin-right: 11px;
+    background: none;
+    cursor: pointer;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square.active {
+    background: no-repeat sc_static('/images/grouped_button.png');
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
+    background: none;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
+    background: none;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square.def,
+.grouped_button.sc-button-view.sc-regular-size.square.sel {
+    background: none;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
+.grouped_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+    background: none;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
+.grouped_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
+    background: none;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square.def.active,
+.grouped_button.sc-button-view.sc-regular-size.square.sel.active {
+    background: none;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
+.grouped_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+    background: none;
+}
+
+.grouped_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
+.grouped_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+    background: none;
+}
+
+
+/* horizontal button */
+
+.horizontal_button.sc-button-view {
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0px #555 none;
+    background: none;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    background: no-repeat sc_static('/images/horizontal_button.png');
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square .sc-button-inner {
+    background: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square .sc-button-label {
+    height: 41px;
+    line-height: 41px;
+    margin-left: 11px;
+    margin-right: 11px;
+    background: none;
+    cursor: pointer;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square.active {
+    background: no-repeat sc_static('/images/horizontal_button.png');
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
+    background: none;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
+    background: none;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square.def,
+.horizontal_button.sc-button-view.sc-regular-size.square.sel {
+    background: none;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
+.horizontal_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+    background: none;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
+.horizontal_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
+    background: none;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square.def.active,
+.horizontal_button.sc-button-view.sc-regular-size.square.sel.active {
+    background: none;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
+.horizontal_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+    background: none;
+}
+
+.horizontal_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
+.horizontal_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
     background: none;
 }
