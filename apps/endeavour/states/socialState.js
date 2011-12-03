@@ -8,6 +8,7 @@ Endeavour.SocialState = SC.State.extend({
         console.log('enterState: loadSocialState');
         Endeavour.getPath('socialView.mainPane').append();
         SC.routes.set('location', 'social_information');
+        this.invokeLater(this.showPopup,500);
       },
       
       showPopup: function() {
