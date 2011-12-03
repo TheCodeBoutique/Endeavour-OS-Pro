@@ -903,3 +903,166 @@
 .horizontal_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
     background: none;
 }
+
+/* not now button */
+
+.horizontal_button.sc-button-view {
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0px #555 none;
+    background: none;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    background: no-repeat sc_static('/images/not_now_button.png');
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square .sc-button-inner {
+    background: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square .sc-button-label {
+    height: 41px;
+    line-height: 41px;
+    margin-left: 11px;
+    margin-right: 11px;
+    background: none;
+    cursor: pointer;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square.active {
+    background: no-repeat sc_static('/images/not_now_button.png');
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
+    background: none;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
+    background: none;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square.def,
+.not_now_button.sc-button-view.sc-regular-size.square.sel {
+    background: no-repeat sc_static('/images/not_now_button.png');
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
+.not_now_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+    background: none;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
+.not_now_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
+    background: none;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square.def.active,
+.not_now_button.sc-button-view.sc-regular-size.square.sel.active {
+    background: none;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
+.not_now_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+    background: none;
+}
+
+.not_now_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
+.not_now_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+    background: none;
+}
+
+
+/* sign in button */
+
+.sign_in_button.sc-button-view {
+    z-index: 10;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 0px #555 none;
+    background: none;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    background: no-repeat sc_static('/images/sign_in_button.png');
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square .sc-button-inner {
+    background: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square .sc-button-label {
+    height: 41px;
+    line-height: 41px;
+    margin-left: 11px;
+    margin-right: 11px;
+    background: none;
+    cursor: pointer;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square.active {
+    background: no-repeat sc_static('/images/sign_in_button.png');
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
+    background: none;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
+    background: none;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square.def,
+.sign_in_button.sc-button-view.sc-regular-size.square.sel {
+    background: no-repeat sc_static('/images/sign_in_button.png');
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
+.sign_in_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+    background: none;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
+.sign_in_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
+    background: none;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square.def.active,
+.sign_in_button.sc-button-view.sc-regular-size.square.sel.active {
+    background: none;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
+.sign_in_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+    background: none;
+}
+
+.sign_in_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
+.sign_in_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+    background: none;
+}

@@ -17,3 +17,43 @@
   -moz-opacity: 0.0;
   filter:alpha(opacity=00);
 }
+
+.light_background{
+  background: -moz-linear-gradient(top,  rgba(179,177,177,0.20) 0%, rgba(0,0,0,0.25) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(179,177,177,0.2)), color-stop(100%,rgba(0,0,0,0.25))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(179,177,177,0.2) 0%,rgba(0,0,0,0.25) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(179,177,177,0.2) 0%,rgba(0,0,0,0.25) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(179,177,177,0.2) 0%,rgba(0,0,0,0.25) 100%); /* IE10+ */
+  background: linear-gradient(top,  rgba(179,177,177,0.2) 0%,rgba(0,0,0,0.25) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80b3b1b1', endColorstr='#ab000000',GradientType=0 ); /* IE6-9 */
+  box-shadow: 3px 0px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 3px 0px 2px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 3px 0px 2px rgba(0, 0, 0, 0.24);
+}
+
+.syncList {
+   border-radius: 6px;
+   background: -moz-linear-gradient(top,  rgba(219,221,223,0.48) 0%, rgba(219,221,223,0.48) 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(219,221,223,0.48)), color-stop(100%,rgba(219,221,223,0.48))); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top,  rgba(219,221,223,0.48) 0%,rgba(219,221,223,0.48) 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top,  rgba(219,221,223,0.48) 0%,rgba(219,221,223,0.48) 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top,  rgba(219,221,223,0.48) 0%,rgba(219,221,223,0.48) 100%); /* IE10+ */
+   background: linear-gradient(top,  rgba(219,221,223,0.48) 0%,rgba(219,221,223,0.48) 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7adbdddf', endColorstr='#7adbdddf',GradientType=0 ); /* IE6-9 */
+   border: 1px solid #828282 !important;
+}
+
+.popup{
+  background-image: sc_static('images/popup.png');
+}
+
+.menu_pane{
+  z-index: 50;
+   background: -moz-linear-gradient(top,  rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,0.2))); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%); /* IE10+ */
+   background: linear-gradient(top,  rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+}

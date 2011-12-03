@@ -96,8 +96,8 @@ Endeavour.socialView = EOS.Page.design({
             classNames: 'social_button'.w(),
             layout: { bottom: 110, centerX: 0, height: 32, width: 146},
             // needs to call an iOS style pop up with endeavour flavor //
-            // action: 'goToPersonalState',
-            // target: 'Endeavour.statechart'
+            action: 'showPopup',
+            target: 'Endeavour.statechart'
           }),
           
           cancelButton: EOS.ButtonView.design({

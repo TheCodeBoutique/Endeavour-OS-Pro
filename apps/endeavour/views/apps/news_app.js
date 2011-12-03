@@ -11,7 +11,7 @@ Endeavour.newsApp = EOS.Page.design({
   // Add childViews to this pane for views to display immediately on page 
   // load.
   mainPane: EOS.MainPane.design({
-    childViews:[ 'linenView', 'topBar'],
+    childViews:[ 'linenView', 'topBar', 'newsSyncView', 'bottomBar'],
     
     linenView: EOS.LinenView.design({
       layout: { top: 0, right: 0, bottom: 0, left: 0 },
@@ -33,18 +33,12 @@ Endeavour.newsApp = EOS.Page.design({
      hiddenView: EOS.View.design({
        layout: { top: 0, right: 74, height: 54, width: 0 },
        childViews: ["streamButton", "groupedButton", "horizontalButton"],
-       
-       // selectedButtonBehavior: EOS.ImageView.design({
-       //  layout: { top: 0, right: 168, height: 54, width: 82 },
-       //  useCanvas: YES,
-       //  value: sc_static('images/selected_button.png')
-       // }),
-       
+      
        streamButton: EOS.ButtonView.design({
           layout: { top: 0, right: 168, height: 54, width: 82 },
           classNames: 'stream_button'.w(),
           buttonBehavior: SC.TOGGLE_BEHAVIOR,
-          // action: 'streamButtonSelected',
+          // action: 'doCheckToggleState',
           // target: 'Endeavour.statechart'
         }),
         
@@ -79,7 +73,51 @@ Endeavour.newsApp = EOS.Page.design({
        value: sc_static('images/news_icon.png')
      }),
      
-   })
+   }),
+   
+   
+   
+   newsSyncView: EOS.View.design({
+    classNames: 'light_background'.w(),
+    layout: { top: 55, left: 0, bottom: 50, width: 275 },
+    childViews: ["syncListBaseView", "newsSyncText", "syncList"],
+     
+    newsSyncText: EOS.ImageView.design({
+     layout: { top: 20, centerX: 0, height: 42, width: 202 },
+     useCanvas: YES,
+     value: sc_static('images/news_sync_text.png')
+    }),
+    
+    syncListBaseView: EOS.View.design({
+      classNames: 'syncList'.w(),
+      layout: { top: 69, bottom: 32, left: 5, right: 5 },
+    }),
+    
+    syncList: SC.ScrollView.design({
+      hasHorizontalScroller: NO,
+      layout: { top: 70, bottom: 32, left: 10, right: 10 },
+      //backgroundColor: 'white',
+    
+      contentView: SC.ListView.design({
+			 contentBinding: "Endeavour.newsfeedsController.arrangedObjects",
+			 selectionBinding: "Endeavour.newsfeedsController.selection",
+			 contentValueKey: "newsSource",
+			 contentCheckboxKey: "isSynced",
+			 left: 10,  
+	     rowHeight: 65,
+			 rowSpacing: 2,
+			 hasContentIcon:  YES,
+			 contentIconKey: "newsIcon",
+       escapeHTML: NO,
+      })
+    }),
+     
+   }),
+   
+   bottomBar: EOS.ToolbarView.design({
+     layout: { bottom: 0, left: 0, right: 0, height: 50 },
+     classNames: 'EOS_Toolbar_Bottom'.w(),
+  })
            
  }),
 

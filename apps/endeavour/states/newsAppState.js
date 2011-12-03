@@ -6,6 +6,10 @@ Endeavour.NewsAppState = SC.State.extend({
 
       enterState: function() {
         console.log('enterState: loadNewsAppState');
+        // var tasks = Endeavour.store.find(Endeavour.Task);
+        // Endeavour.tasksController.set('content', tasks);
+        var newsfeeds = Endeavour.store.find(Endeavour.Newsfeed);
+        Endeavour.newsfeedsController.set('content', newsfeeds);
         Endeavour.getPath('newsApp.mainPane').append();
         SC.routes.set('location', 'news_app');
       },
@@ -23,22 +27,7 @@ Endeavour.NewsAppState = SC.State.extend({
           Endeavour.newsViewsButtonController.set('isViewsButtonON', YES);
         }
          
-      },
-      
-     // streamButtonSelected: function () {
-     //   console.log('Stream Button Selected');
-     //   Endeavour.newsApp.mainPane.topBar.hiddenView.selectedButtonBehavior.animate('right', 168,{duration: .0,timing:'ease-in-out'});
-     // },
-     // 
-     // groupedButtonSelected: function () {
-     //   console.log('Grouped Button Selected');
-     //   Endeavour.newsApp.mainPane.topBar.hiddenView.selectedButtonBehavior.animate('right', 84,{duration: .0,timing:'ease-in-out'});
-     // },
-     // 
-     // horizontalButtonSelected: function () {
-     //   console.log('Horizontal Button Selected');
-     //   Endeavour.newsApp.mainPane.topBar.hiddenView.selectedButtonBehavior.animate('right', 0,{duration: .0,timing:'ease-in-out'});
-     // },      
+      }, 
     
       exitState:function() {
         Endeavour.getPath('newsApp.mainPane').remove();

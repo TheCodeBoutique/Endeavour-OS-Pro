@@ -19,6 +19,7 @@ Endeavour.mainPage = EOS.Page.design({
     }),
     
     middleView: EOS.View.design({
+      classNames: 'no_opacity'.w(),
       layout: { top: 0, right: 0, bottom: 0, left: 0 },
       childViews: "eosIcon eosLogo userName password newTo signUp login".w(),
     
