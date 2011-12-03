@@ -75,8 +75,6 @@ Endeavour.newsApp = EOS.Page.design({
      
    }),
    
-   
-   
    newsSyncView: EOS.View.design({
     classNames: 'light_background'.w(),
     layout: { top: 55, left: 0, bottom: 50, width: 275 },

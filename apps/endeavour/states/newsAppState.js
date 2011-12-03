@@ -6,8 +6,6 @@ Endeavour.NewsAppState = SC.State.extend({
 
       enterState: function() {
         console.log('enterState: loadNewsAppState');
-        // var tasks = Endeavour.store.find(Endeavour.Task);
-        // Endeavour.tasksController.set('content', tasks);
         var newsfeeds = Endeavour.store.find(Endeavour.Newsfeed);
         Endeavour.newsfeedsController.set('content', newsfeeds);
         Endeavour.getPath('newsApp.mainPane').append();
