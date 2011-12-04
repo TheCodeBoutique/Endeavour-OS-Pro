@@ -101,17 +101,19 @@ Endeavour.socialView = EOS.Page.design({
           }),
           
           cancelButton: EOS.ButtonView.design({
-            classNames: 'cancel_button'.w(),
+            classNames: 'dark_gray_button'.w(),
             layout: { bottom: 50, left: 375, height: 41, width: 110},
             action: 'goToPersonalState',
-            target: 'Endeavour.statechart'
+            target: 'Endeavour.statechart',
+            title: 'cancel'
           }),
           
           doneButton: EOS.ButtonView.design({
-            classNames: 'done_button'.w(),
+            classNames: 'light_gray_button'.w(),
             layout: { bottom: 49, right: 374, height: 41, width: 110},
             action: 'goToDesktopState',
-            target: 'Endeavour.statechart'
+            target: 'Endeavour.statechart',
+            title: 'Done'
           }),
           
           pageIndicator: EOS.ImageView.design({

@@ -67,11 +67,12 @@ Endeavour.newsApp = EOS.Page.design({
        //target: 'MyApp.Controller'
      }),
      
-     newsIcon: EOS.ImageView.design({
+     newsIcon: EOS.ButtonView.design({
        layout: { centerY: -2, left: 10, height: 54, width: 233 },
-       useCanvas: YES,
-       value: sc_static('images/news_icon.png')
-     }),
+       classNames: 'news_icon_button'.w(),
+       action: 'goToDesktopState',
+       target: 'Endeavour.statechart',
+    }),
      
    }),
    

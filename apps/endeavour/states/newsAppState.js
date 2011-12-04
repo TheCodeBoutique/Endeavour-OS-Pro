@@ -26,6 +26,10 @@ Endeavour.NewsAppState = SC.State.extend({
         }
          
       }, 
+      
+      goToDesktopState: function() {
+        this.gotoState('DesktopState');
+      },
     
       exitState:function() {
         Endeavour.getPath('newsApp.mainPane').remove();

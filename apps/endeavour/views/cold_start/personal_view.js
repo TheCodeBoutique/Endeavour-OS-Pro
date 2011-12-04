@@ -25,10 +25,11 @@ Endeavour.personalView = EOS.Page.design({
              value: sc_static('images/endeavour_logo_med.png')
           }),
           
-          uploadPhoto: EOS.ImageView.design({
-            layout: { centerY: 0, left: 70, height: 138, width: 135 },
-            useCanvas: YES,
-            value: sc_static('images/upload_image.png')
+          uploadPhoto: EOS.ButtonView.design({
+            classNames: 'upload_button'.w(),
+            layout: { centerY: 0, left: 70, height: 137, width: 136 },
+            // action: 'goToNewAccountState',
+            // target: 'Endeavour.statechart',
           }),
           
           describeYourself: EOS.TextFieldView.design({
@@ -46,17 +47,19 @@ Endeavour.personalView = EOS.Page.design({
           }),
           
           cancelButton: EOS.ButtonView.design({
-            classNames: 'cancel_button'.w(),
+            classNames: 'dark_gray_button'.w(),
             layout: { bottom: 50, left: 250, height: 41, width: 110},
             action: 'goToNewAccountState',
-            target: 'Endeavour.statechart'
+            target: 'Endeavour.statechart',
+            title: 'Cancel'
           }),
           
           nextButton: EOS.ButtonView.design({
-            classNames: 'next_button'.w(),
+            classNames: 'light_gray_button'.w(),
             layout: { bottom: 50, right: 250, height: 41, width: 110},
             action: 'goToSocialState',
-            target: 'Endeavour.statechart'
+            target: 'Endeavour.statechart',
+            title: 'Next'
           }),
           
           pageIndicator: EOS.ImageView.design({

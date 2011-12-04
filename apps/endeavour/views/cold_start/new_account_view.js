@@ -72,17 +72,19 @@ Endeavour.newAccountView = EOS.Page.design({
           }), 
           
           cancelButton: EOS.ButtonView.design({
-            classNames: 'cancel_button'.w(),
+            classNames: 'dark_gray_button'.w(),
             layout: { bottom: 50, left: 250, height: 41, width: 110},
             action: 'goToLoginState',
-            target: 'Endeavour.statechart'
+            target: 'Endeavour.statechart',
+            title: 'Cancel'
           }),
           
           nextButton: EOS.ButtonView.design({
-            classNames: 'next_button'.w(),
+            classNames: 'light_gray_button'.w(),
             layout: { bottom: 50, right: 250, height: 41, width: 110},
             action: 'goToPersonalState',
-            target: 'Endeavour.statechart'
+            target: 'Endeavour.statechart',
+            title: 'Next'
           }),
           
           pageIndicator: EOS.ImageView.design({

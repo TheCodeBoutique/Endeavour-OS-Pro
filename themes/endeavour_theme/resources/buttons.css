@@ -1,416 +1,3 @@
-/* done_button */
-
-.done_button.sc-button-view {
-    z-index: 10;
-    display: inline-block;
-    vertical-align: middle;
-    text-decoration: none;
-    border: 0px #555 none;
-    background: none;
-}
-
-.done_button.sc-button-view.sc-regular-size.square {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    background: no-repeat sc_static('/images/done_button.png');
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.done_button.sc-button-view.sc-regular-size.square .sc-button-inner {
-    background: none;
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.done_button.sc-button-view.sc-regular-size.square .sc-button-label {
-    height: 36px;
-    line-height: 36px;
-    margin-left: 11px;
-    margin-right: 11px;
-    background: none;
-    cursor: pointer;
-}
-
-.done_button.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/done_button.png');
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    
-    cursor: pointer;
-}
-
-.done_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
-    background: none;
-}
-
-.done_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
-    background: none;
-}
-
-.done_button.sc-button-view.sc-regular-size.square.def,
-.done_button.sc-button-view.sc-regular-size.square.sel {
-    background: none;
-}
-
-.done_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
-.done_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
-    background: none;
-}
-
-.done_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
-.done_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
-    background: none;
-}
-
-.done_button.sc-button-view.sc-regular-size.square.def.active,
-.done_button.sc-button-view.sc-regular-size.square.sel.active {
-    background: none;
-}
-
-.done_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
-.done_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
-    background: none;
-}
-
-.done_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
-.done_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
-    background: none;
-}
-
-
-/* login button */
-
-.login.sc-button-view {
-    z-index: 10;
-    display: inline-block;
-    vertical-align: middle;
-    text-decoration: none;
-    border: 0px #555 none;
-    background: none;
-}
-
-.login.sc-button-view.sc-regular-size.square {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    background: no-repeat sc_static('/images/login.png');
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.login.sc-button-view.sc-regular-size.square .sc-button-inner {
-    background: none;
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.login.sc-button-view.sc-regular-size.square .sc-button-label {
-    height: 36px;
-    line-height: 36px;
-    margin-left: 11px;
-    margin-right: 11px;
-    background: none;
-    cursor: pointer;
-}
-
-.login.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/login.png');
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    
-    cursor: pointer;
-}
-
-.login.sc-button-view.sc-regular-size.square.active .sc-button-inner {
-    background: none;
-}
-
-.login.sc-button-view.sc-regular-size.square.active .sc-button-label {
-    background: none;
-}
-
-.login.sc-button-view.sc-regular-size.square.def,
-.login.sc-button-view.sc-regular-size.square.sel {
-    background: none;
-}
-
-.login.sc-button-view.sc-regular-size.square.def .sc-button-inner,
-.login.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
-    background: none;
-}
-
-.login.sc-button-view.sc-regular-size.square.def .sc-button-label,
-.login.sc-button-view.sc-regular-size.square.sel .sc-button-label {
-    background: none;
-}
-
-.login.sc-button-view.sc-regular-size.square.def.active,
-.login.sc-button-view.sc-regular-size.square.sel.active {
-    background: none;
-}
-
-.login.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
-.login.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
-    background: none;
-}
-
-.login.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
-.login.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
-    background: none;
-}
-
-
-/* sign up button */
-
-.signup.sc-button-view {
-    z-index: 10;
-    display: inline-block;
-    vertical-align: middle;
-    text-decoration: none;
-    border: 0px #555 none;
-    background: none;
-}
-
-.signup.sc-button-view.sc-regular-size.square {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    background: no-repeat sc_static('/images/signup.png');
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.signup.sc-button-view.sc-regular-size.square .sc-button-inner {
-    background: none;
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.signup.sc-button-view.sc-regular-size.square .sc-button-label {
-    height: 21px;
-    line-height: 21px;
-    margin-left: 11px;
-    margin-right: 11px;
-    background: none;
-    cursor: pointer;
-}
-
-.signup.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/signup.png');
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    
-    cursor: pointer;
-}
-
-.signup.sc-button-view.sc-regular-size.square.active .sc-button-inner {
-    background: none;
-}
-
-.signup.sc-button-view.sc-regular-size.square.active .sc-button-label {
-    background: none;
-}
-
-.signup.sc-button-view.sc-regular-size.square.def,
-.signup.sc-button-view.sc-regular-size.square.sel {
-    background: none;
-}
-
-.signup.sc-button-view.sc-regular-size.square.def .sc-button-inner,
-.signup.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
-    background: none;
-}
-
-.signup.sc-button-view.sc-regular-size.square.def .sc-button-label,
-.signup.sc-button-view.sc-regular-size.square.sel .sc-button-label {
-    background: none;
-}
-
-.signup.sc-button-view.sc-regular-size.square.def.active,
-.signup.sc-button-view.sc-regular-size.square.sel.active {
-    background: none;
-}
-
-.signup.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
-.signup.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
-    background: none;
-}
-
-.signup.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
-.signup.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
-    background: none;
-}
-
-/* cancel button */
-
-.cancel_button.sc-button-view {
-    z-index: 10;
-    display: inline-block;
-    vertical-align: middle;
-    text-decoration: none;
-    border: 0px #555 none;
-    background: none;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    background: no-repeat sc_static('/images/cancel_button.png');
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square .sc-button-inner {
-    background: none;
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square .sc-button-label {
-    height: 41px;
-    line-height: 41px;
-    margin-left: 11px;
-    margin-right: 11px;
-    background: none;
-    cursor: pointer;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/cancel_button.png');
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    
-    cursor: pointer;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
-    background: none;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
-    background: none;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square.def,
-.cancel_button.sc-button-view.sc-regular-size.square.sel {
-    background: none;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
-.cancel_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
-    background: none;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
-.cancel_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
-    background: none;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square.def.active,
-.cancel_button.sc-button-view.sc-regular-size.square.sel.active {
-    background: none;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
-.canccancel_buttonel.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
-    background: none;
-}
-
-.cancel_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
-.cancel_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
-    background: none;
-}
-
-/* next button */
-
-.next_button.sc-button-view {
-    z-index: 10;
-    display: inline-block;
-    vertical-align: middle;
-    text-decoration: none;
-    border: 0px #555 none;
-    background: none;
-}
-
-.next_button.sc-button-view.sc-regular-size.square {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    background: no-repeat sc_static('/images/next_button.png');
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.next_button.sc-button-view.sc-regular-size.square .sc-button-inner {
-    background: none;
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.next_button.sc-button-view.sc-regular-size.square .sc-button-label {
-    height: 41px;
-    line-height: 41px;
-    margin-left: 11px;
-    margin-right: 11px;
-    background: none;
-    cursor: pointer;
-}
-
-.next_button.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/next_button.png');
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    
-    cursor: pointer;
-}
-
-.next_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
-    background: none;
-}
-
-.next_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
-    background: none;
-}
-
-.next_button.sc-button-view.sc-regular-size.square.def,
-.next_button.sc-button-view.sc-regular-size.square.sel {
-    background: none;
-}
-
-.next_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
-.next_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
-    background: none;
-}
-
-.next_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
-.next_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
-    background: none;
-}
-
-.next_button.sc-button-view.sc-regular-size.square.def.active,
-.next_button.sc-button-view.sc-regular-size.square.sel.active {
-    background: none;
-}
-
-.next_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
-.next_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
-    background: none;
-}
-
-.next_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
-.next_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
-    background: none;
-}
-
-
 /* social button */
 
 .social_button.sc-button-view {
@@ -904,9 +491,9 @@
     background: none;
 }
 
-/* not now button */
+/* news_icon_button */
 
-.horizontal_button.sc-button-view {
+.news_icon_button.sc-button-view {
     z-index: 10;
     display: inline-block;
     vertical-align: middle;
@@ -915,22 +502,22 @@
     background: none;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square {
+.news_icon_button.sc-button-view.sc-regular-size.square {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
-    background: no-repeat sc_static('/images/not_now_button.png');
+    background: no-repeat sc_static('/images/news_icon.png');
     border-radius: 0px;
     cursor: pointer;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square .sc-button-inner {
+.news_icon_button.sc-button-view.sc-regular-size.square .sc-button-inner {
     background: none;
     border-radius: 0px;
     cursor: pointer;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square .sc-button-label {
+.news_icon_button.sc-button-view.sc-regular-size.square .sc-button-label {
     height: 41px;
     line-height: 41px;
     margin-left: 11px;
@@ -939,130 +526,48 @@
     cursor: pointer;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/not_now_button.png');
+.news_icon_button.sc-button-view.sc-regular-size.square.active {
+    background: no-repeat sc_static('/images/news_icon.png');
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
     cursor: pointer;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
+.news_icon_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
     background: none;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
+.news_icon_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
     background: none;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square.def,
-.not_now_button.sc-button-view.sc-regular-size.square.sel {
-    background: no-repeat sc_static('/images/not_now_button.png');
+.news_icon_button.sc-button-view.sc-regular-size.square.def,
+.news_icon_button.sc-button-view.sc-regular-size.square.sel {
+    background: no-repeat sc_static('/images/news_icon.png');
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
-.not_now_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+.news_icon_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
+.news_icon_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
     background: none;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
-.not_now_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
+.news_icon_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
+.news_icon_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
     background: none;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square.def.active,
-.not_now_button.sc-button-view.sc-regular-size.square.sel.active {
+.news_icon_button.sc-button-view.sc-regular-size.square.def.active,
+.news_icon_button.sc-button-view.sc-regular-size.square.sel.active {
     background: none;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
-.not_now_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+.news_icon_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
+.news_icon_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
     background: none;
 }
 
-.not_now_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
-.not_now_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
-    background: none;
-}
-
-
-/* sign in button */
-
-.sign_in_button.sc-button-view {
-    z-index: 10;
-    display: inline-block;
-    vertical-align: middle;
-    text-decoration: none;
-    border: 0px #555 none;
-    background: none;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    background: no-repeat sc_static('/images/sign_in_button.png');
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square .sc-button-inner {
-    background: none;
-    border-radius: 0px;
-    cursor: pointer;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square .sc-button-label {
-    height: 41px;
-    line-height: 41px;
-    margin-left: 11px;
-    margin-right: 11px;
-    background: none;
-    cursor: pointer;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/sign_in_button.png');
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square.active .sc-button-inner {
-    background: none;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square.active .sc-button-label {
-    background: none;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square.def,
-.sign_in_button.sc-button-view.sc-regular-size.square.sel {
-    background: no-repeat sc_static('/images/sign_in_button.png');
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square.def .sc-button-inner,
-.sign_in_button.sc-button-view.sc-regular-size.square.sel .sc-button-inner {
-    background: none;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square.def .sc-button-label,
-.sign_in_button.sc-button-view.sc-regular-size.square.sel .sc-button-label {
-    background: none;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square.def.active,
-.sign_in_button.sc-button-view.sc-regular-size.square.sel.active {
-    background: none;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square.def.active .sc-button-inner,
-.sign_in_button.sc-button.sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
-    background: none;
-}
-
-.sign_in_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
-.sign_in_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+.news_icon_button.sc-button-view.sc-regular-size.square.def.active .sc-button-label,
+.news_icon_button.sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
     background: none;
 }

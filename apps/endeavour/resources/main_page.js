@@ -24,7 +24,7 @@ Endeavour.mainPage = EOS.Page.design({
       childViews: "eosIcon eosLogo userName password newTo signUp login".w(),
     
         eosIcon: EOS.ImageView.design({
-           layout: { height: 33, width: 182, centerX: -275, centerY: 175},
+           layout: { height: 33, width: 182, centerX: -275, centerY: 180},
            useCanvas: YES,
            value: sc_static('images/endeavour_icon.png')
         }),
@@ -52,21 +52,23 @@ Endeavour.mainPage = EOS.Page.design({
         }),
         
         newTo: EOS.LabelView.design({
-          layout: { centerX: 0, centerY: 215, height: 25, width: 200},
+          classNames: 'text'.w(),
+          layout: { centerX: 0, centerY: 220, height: 25, width: 200},
           value: 'New to Endeavour?'
         }),
         
         signUp: EOS.ButtonView.design({
-          classNames: 'signup'.w(),
-          layout: { centerX: 50, centerY: 213, height: 21, width: 60},
+          classNames: 'signup_button'.w(),
+          layout: { centerX: 60, centerY: 217, height: 26, width: 65},
           action: 'goToNewAccountState',
-          target: 'Endeavour.statechart'
+          target: 'Endeavour.statechart',
+          /*title: 'Signup'*/
         }),
         
         login: EOS.ButtonView.design({
-          classNames: 'login'.w(),
+          classNames: 'light_gray_button'.w(),
           layout: { centerX: 325, centerY: 215, height: 36, width: 106},
-          // title: 'Login',
+          title: 'Login',
           action: 'goToDesktopState',
           target: 'Endeavour.statechart'
         }),

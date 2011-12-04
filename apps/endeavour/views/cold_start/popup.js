@@ -1,7 +1,7 @@
 Endeavour.popupView = SC.Page.design({
   defaultResponder: 'Endeavour.statechart',
   
-  mainPane: EOS.MainPane.design({
+  mainPane: SC.MainPane.design({
     classNames: 'menu_pane'.w(),
     childViews: "middleView".w(),
     
