@@ -68,7 +68,7 @@ Endeavour.newsApp = EOS.Page.design({
      }),
      
      newsIcon: EOS.ButtonView.design({
-       layout: { centerY: -2, left: 10, height: 54, width: 233 },
+       layout: { centerY: -2, left: 10, height: 52, width: 213 },
        classNames: 'news_icon_button'.w(),
        action: 'goToDesktopState',
        target: 'Endeavour.statechart',
