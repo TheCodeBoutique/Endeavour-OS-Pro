@@ -28,7 +28,7 @@ Endeavour.desktopView = EOS.Page.design({
       designerApp: EOS.ButtonView.design({
         classNames: 'designer'.w(),
         layout: { top: 55, centerX: -280, height: 114, width: 130},
-        action: 'goToDesignerAppState',
+        action: 'goToDesignerAppProfileState',
         target: 'Endeavour.statechart'
       }),
       

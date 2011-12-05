@@ -1,12 +1,15 @@
 .text{
   color: #636161;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px !important;
   font-family: "Helvetica Neue";
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }
 
-.sc-label-view.sc-regular-size {
-  font-size: 14px;
-  line-height: 19px;
+.text_med{
+  color: #636161;
+  font-weight: normal;
+  font-size: 18px !important;
+  font-family: "Helvetica Neue";
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }

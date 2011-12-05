@@ -2,7 +2,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;
-    background: no-repeat sc_static('/images/signup_button_hov.png');
+    background: no-repeat sc_static('/images/signup_button_norm.png');
     border-radius: 0px;
     cursor: pointer;
 }
@@ -47,7 +47,7 @@
 }
 
 .signup_button.sc-button-view.sc-regular-size.square.active {
-    background: no-repeat sc_static('/images/signup_button_down.png');
+    background: no-repeat sc_static('/images/signup_button_norm.png');
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: white;
     font-size: 14px;

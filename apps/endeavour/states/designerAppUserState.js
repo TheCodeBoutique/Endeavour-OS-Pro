@@ -1,17 +1,17 @@
-Endeavour.DesignerAppState = SC.State.extend({ 
+Endeavour.DesignerAppUserState = SC.State.extend({ 
   
   initialSubstate: 'loadDesignerAppState',
   
-    loadDesignerAppState: SC.State.extend({
+    loadDesignerAppProfileState: SC.State.extend({
 
       enterState: function() {
         console.log('enterState: loadDesignerAppState');
-        Endeavour.getPath('designerApp.mainPane').append();
+        Endeavour.getPath('designerAppProfile.mainPane').append();
         SC.routes.set('location', 'designer_app');
       },
     
       exitState:function() {
-        Endeavour.getPath('designerApp.mainPane').remove();
+        Endeavour.getPath('designerAppProfile.mainPane').remove();
       }
       
     })

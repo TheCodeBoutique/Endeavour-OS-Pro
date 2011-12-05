@@ -15,9 +15,9 @@ Endeavour.DesktopState = SC.State.extend({
         this.gotoState('NewsAppState');
       },
       
-      goToDesignerAppState: function() {
-        console.log('goToDesignerAppState');
-        this.gotoState('DesignerAppState');
+      goToDesignerAppProfileState: function() {
+        console.log('goToDesignerAppProfileState');
+        this.gotoState('DesignerAppProfileState');
       },
       
       goToCloudAppState: function() {

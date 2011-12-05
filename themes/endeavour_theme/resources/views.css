@@ -57,3 +57,7 @@
    background: linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%); /* W3C */
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
 }
+
+.center_view{
+  background-image: sc_static('images/designer_menu');
+}
