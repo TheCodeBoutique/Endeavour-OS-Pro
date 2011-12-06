@@ -25,8 +25,30 @@ Endeavour.designerAppDevice = EOS.Page.design({
     }),
     
     centerView: EOS.View.design ({
-      classNames: 'test'.w(),
       layout: { centerX: 0, centerY: 0, height: 320, width: 792 },
+      childViews: ["mobileButton", "tabletButton", "desktopButton"],
+      
+      mobileButton: EOS.ButtonView.design({
+        classNames: 'mobile_button'.w(),
+        layout: { left: 16, top: 153, height: 151, width: 102 },
+        // action: 'myMethod',
+        // target: 'MyApp.Controller'
+      }),
+      
+      tabletButton: EOS.ButtonView.design({
+         classNames: 'tablet_button'.w(),
+         layout: { left: 211, top: 111, height: 197, width: 130 },
+         // action: 'myMethod',
+         // target: 'MyApp.Controller'
+      }),
+      
+      desktopButton: EOS.ButtonView.design({
+         classNames: 'desktop_button'.w(),
+         layout: { right: 19, top: 15, height: 296, width: 337 },
+         // action: 'myMethod',
+         // target: 'MyApp.Controller'
+      }),
+      
     }),
     
     chooseYourText: EOS.ImageView.design ({
