@@ -11,7 +11,7 @@ Endeavour.designerAppProfile = EOS.Page.design({
   // Add childViews to this pane for views to display immediately on page 
   // load.
   mainPane: EOS.MainPane.design({
-    childViews: ["linenView", "designerIcon", "centerView", "buildProfileText", "cancelButton"],
+    childViews: ["linenView", "designerIcon", "userView", "professionalView", "buildProfileText", "cancelButton"],
     
     linenView: EOS.LinenView.design({
       layout: { top: 0, right: 0, bottom: 0, left: 0 },
@@ -19,20 +19,26 @@ Endeavour.designerAppProfile = EOS.Page.design({
     }),
     
     designerIcon: EOS.ImageView.design ({
-      layout: { centerX: 0, centerY: -175, height: 63, width: 300 },
+      layout: { top: 0, left: 10, height: 63, width: 300 },
       useCanvas: YES,
       value: sc_static('images/designer_icon.png')
     }),
     
-    centerView: EOS.View.design ({
+    userView: EOS.View.design ({
       classNames: 'center_view'.w(),
-      layout: { centerX: 0, centerY: 10, height: 230, width: 737},
-      childViews: ["userProfileText", "userProfileDescription", "chooseLeftButton", "professionalProfileText", "professionalProfileDescription", "chooseRightButton"],
+      layout: { centerX: -200, centerY: 10, height: 229, width: 365 },
+      childViews: ["lineLeft", "userProfileText", "userProfileDescription", "chooseLeftButton"],
       
-      userProfileText: EOS.LabelView.design({
-        classNames: 'text_med'.w(),
-        layout: { top: 18, left: 133, height: 25, width: 150},
-        value: 'User Profile'
+      lineLeft: EOS.ImageView.design ({
+        layout: { top: 31, centerX: 0, height: 12, width: 200},
+        useCanvas: YES,
+        value: sc_static('images/line.png')
+      }),
+      
+      userProfileText: EOS.ImageView.design ({
+        layout: { top: 1, centerX: 0, height: 48, width: 159},
+        useCanvas: YES,
+        value: sc_static('images/user_profile_text.png')
       }),
       
       userProfileDescription: EOS.LabelView.design({
@@ -43,28 +49,41 @@ Endeavour.designerAppProfile = EOS.Page.design({
       
       chooseLeftButton: EOS.ButtonView.design({
         classNames: 'light_gray_button'.w(),
-        layout: { left: 20, bottom: 20, height: 36, width: 106},
-        title: 'Choose',
+        layout: { centerX: 0, bottom: 20, height: 36, width: 106},
+        title: 'User',
         action: 'goToDesignerDeviceState',
         target: 'Endeavour.statechart'
       }),
       
-      professionalProfileText: EOS.LabelView.design({
-        classNames: 'text_med'.w(),
-        layout: { top: 18, right: 77, height: 25, width: 200},
-        value: 'Professional Profile'
+    }),
+    
+    professionalView: EOS.View.design({
+      layout: { centerX: 200, centerY: 10, height: 229, width: 365 },
+      classNames: 'center_view'.w(),
+      childViews: [ "lineRight", "professionalProfileText", "professionalProfileDescription", "chooseRightButton"],
+
+      lineRight: EOS.ImageView.design ({
+        layout: { top: 31, centerX: 0, height: 12, width: 200},
+        useCanvas: YES,
+        value: sc_static('images/line.png')
+      }),
+      
+      professionalProfileText: EOS.ImageView.design ({
+        layout: { top: 1, centerX: 0, height: 50, width: 261},
+        useCanvas: YES,
+        value: sc_static('images/professionalText.png')
       }),
       
       professionalProfileDescription: EOS.LabelView.design({
         classNames: 'text'.w(),
-        layout: { top: 50, right: 25, height: 200, width: 320},
+        layout: { top: 50, right: 15, height: 200, width: 320},
         value: 'Create a profile tailored towards your brand.  The professional profile expands on the user profile and provides e-commerce tools for your music, movies, and physical items such as clothing, electronics, and more,  The professional profile: embracing entrepreneurship - built for business.'
       }),
       
       chooseRightButton: EOS.ButtonView.design({
         classNames: 'light_gray_button'.w(),
-        layout: { right: 20, bottom: 20, height: 36, width: 106},
-        title: 'Choose',
+        layout: { centerX: 0, bottom: 20, height: 36, width: 106},
+        title: 'Professional',
         // action: 'myMethod',
         // target: 'MyApp.Controller'
       }),

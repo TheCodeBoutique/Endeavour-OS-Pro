@@ -11,7 +11,7 @@ Endeavour.designerAppDevice = EOS.Page.design({
   // Add childViews to this pane for views to display immediately on page 
   // load.
   mainPane: EOS.MainPane.design({
-    childViews: ["linenView", "designerIcon", "centerView", "chooseYourText"],
+    childViews: ["linenView", "designerIcon", "centerView", "cancelButton", "chooseYourText"],
     
     linenView: EOS.LinenView.design({
       layout: { top: 0, right: 0, bottom: 0, left: 0 },
@@ -19,7 +19,7 @@ Endeavour.designerAppDevice = EOS.Page.design({
     }),
     
     designerIcon: EOS.ImageView.design ({
-      layout: { top: 10, left: 10, height: 63, width: 300 },
+      layout: { top: 0, left: 10, height: 63, width: 300 },
       useCanvas: YES,
       value: sc_static('images/designer_icon.png')
     }),
@@ -31,8 +31,8 @@ Endeavour.designerAppDevice = EOS.Page.design({
       mobileButton: EOS.ButtonView.design({
         classNames: 'mobile_button'.w(),
         layout: { left: 16, top: 153, height: 151, width: 102 },
-        // action: 'myMethod',
-        // target: 'MyApp.Controller'
+        action: 'goToDesignerAppMobileStoryboardState',
+        target: 'Endeavour.statechart'
       }),
       
       tabletButton: EOS.ButtonView.design({
@@ -51,8 +51,16 @@ Endeavour.designerAppDevice = EOS.Page.design({
       
     }),
     
+    cancelButton: EOS.ButtonView.design({
+      layout: { centerX: 0, centerY: 250, height: 41, width: 114 },
+      classNames: 'dark_gray_button'.w(),
+      title: "cancel",
+      action: 'goToDesktopState',
+      target: 'Endeavour.statechart'
+    }),
+    
     chooseYourText: EOS.ImageView.design ({
-      layout: { centerX: 0, centerY: 250, height: 39, width: 343 },
+      layout: { centerX: 0, centerY: 200, height: 39, width: 343 },
       useCanvas: YES,
       value: sc_static('images/choose_your_text.png')
     }),
