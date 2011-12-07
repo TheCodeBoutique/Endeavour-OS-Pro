@@ -1,0 +1,9 @@
+.EOS_listview.sc-collection-item:nth-child(odd) { 
+  border-top: 0px solid silver;
+  border-bottom: 1px solid gray;
+}
+
+.EOS_listview.sc-collection-item:nth-child(even) { 
+  border-top: 0px solid silver;
+  border-bottom: 1px solid gray;
+}

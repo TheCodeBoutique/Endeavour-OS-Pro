@@ -13,3 +13,11 @@
   font-family: "Helvetica Neue";
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }
+
+.text_lrg{
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 24px !important;
+  font-family: "Helvetica Neue";
+  text-shadow: 0px 2px 0px rgba(000, 000, 000, 0.75);
+}

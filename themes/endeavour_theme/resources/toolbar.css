@@ -31,4 +31,5 @@
 
 .EOS_Toolbar_Top_Dark_Shadow{
   background-image: sc_static('images/top_bar_dark_shadow.png');
+  z-index: 20;
 }
