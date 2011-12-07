@@ -5,7 +5,7 @@
 /*globals Endeavour */
 
 // This page describes the main user interface for your application.  
-Endeavour.designerAppMobileStoryboard = EOS.Page.design({
+Endeavour.designerAppMobileInterface = EOS.Page.design({
 
   // The main pane is made visible on screen as soon as your app is loaded.
   // Add childViews to this pane for views to display immediately on page 
@@ -32,8 +32,8 @@ Endeavour.designerAppMobileStoryboard = EOS.Page.design({
        
        rightLabel: EOS.LabelView.design({
          classNames: 'text_lrg'.w(),
-         layout: { centerY: 0, right: 50, height: 30, width: 150},
-         value: 'View Type'
+         layout: { centerY: 0, right: 30, height: 30, width: 200},
+         value: 'UI Components'
        }),
        
        runButton: EOS.ButtonView.design({
@@ -103,8 +103,8 @@ Endeavour.designerAppMobileStoryboard = EOS.Page.design({
        storyboardButton: EOS.ButtonView.design({
          classNames: 'storyboard_button'.w(),
          layout: { centerY: -2, left: 10 , height: 54, width: 94},
-         // action: 'goToDesignerAppMobileInterfaceState',
-         // target: 'Endeavour.statechart'
+         action: 'goToDesignerAppMobileStoryboardState',
+         target: 'Endeavour.statechart'
        }),
        
        interfaceButton: EOS.ButtonView.design({

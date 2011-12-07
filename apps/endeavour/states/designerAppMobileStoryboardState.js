@@ -10,6 +10,11 @@ Endeavour.DesignerAppMobileStoryboardState = SC.State.extend({
         SC.routes.set('location', 'designer_app/mobile/storyboard');
       },
     
+      goToDesignerAppMobileInterfaceState: function() {
+        console.log('goToDesignerAppMobileInterfaceState');
+        this.gotoState('DesignerAppMobileInterfaceState');
+      },
+    
       exitState:function() {
         Endeavour.getPath('designerAppMobileStoryboard.mainPane').remove();
       }

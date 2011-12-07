@@ -15,6 +15,7 @@ Endeavour.statechart = SC.Statechart.create({
     DesignerAppProfileState: SC.State.plugin('Endeavour.DesignerAppProfileState'),
     DesignerAppDeviceState: SC.State.plugin('Endeavour.DesignerAppDeviceState'),
     DesignerAppMobileStoryboardState: SC.State.plugin('Endeavour.DesignerAppMobileStoryboardState'),
+    DesignerAppMobileInterfaceState: SC.State.plugin('Endeavour.DesignerAppMobileInterfaceState'),
     CloudAppState: SC.State.plugin('Endeavour.CloudAppState')
   })
 

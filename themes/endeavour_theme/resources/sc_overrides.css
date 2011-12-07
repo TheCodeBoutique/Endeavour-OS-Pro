@@ -163,6 +163,7 @@
   top: 80px;
   bottom: 80px;
   background: black;
+  cursor: pointer;
 }
 
 .sc-view.sc-scroller-view.sc-vertical .thumb-top {
@@ -174,6 +175,7 @@
   background: black;
 	border-top-left-radius: 10px 10px;
 	border-top-right-radius: 10px 10px;
+	cursor: pointer;
 }
 
 .sc-view.sc-scroller-view.sc-vertical .thumb-bottom {
@@ -185,6 +187,7 @@
   background: black;
 	border-bottom-left-radius: 10px 10px;
 	border-bottom-right-radius: 10px 10px;
+	cursor: pointer;
 }
 
 .sc-view.sc-scroller-view.sc-vertical .button-top {
